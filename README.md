@@ -1,8 +1,16 @@
 # Small digital jobs, finished properly
 
-AI-operated coding fixes, utility scripts, static webpages, technical documentation, document formatting, and data cleanup. These samples use invented data and content; they are not client work, testimonials, or sales results.
+AI-operated coding, document and data work for Joseph Vitek's service. These examples use invented content; they are demonstrations, not client work.
 
-**Scope inquiries:** aacceess14@gmail.com. Send a non-sensitive sample and the result you want. Do not send passwords, confidential records, or personal customer data.
+**Tell us what needs to work or look different, and when you need it.** Email aacceess14@gmail.com with a short description. You do not need to prepare files for the first message. If the task looks feasible, we will ask for the smallest non-sensitive example needed to give a fixed quote.
+
+| Your task | Inspect a relevant example |
+|---|---|
+| A small webpage or interactive form | [Calculator source and browser-check notes](#interactive-webpage-sample) |
+| Supplied text that needs a clear PDF layout | [Rough text and finished workshop PDF](#pdf-formatting-sample) |
+| A CSV/JSON conversion or spreadsheet cleanup | [Input/output reconciliation](#data-transformation-sample) · [Workbook with changes and exceptions](#spreadsheet-sample) |
+
+Starting prices and exact scope limits are below. We agree the deliverable, price, checks and deadline before accepting work. Do not send passwords or sensitive records.
 
 ## Coding, web and document work
 
