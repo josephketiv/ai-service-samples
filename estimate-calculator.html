@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estimate preview — synthetic portfolio demo</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#183437;background:#edf1ed;font-synthesis:none}*{box-sizing:border-box}body{margin:0}main{max-width:1120px;margin:auto;padding:54px 28px 36px}.eyebrow{font-size:12px;font-weight:750;letter-spacing:.14em;text-transform:uppercase;color:#526d5c}.topline{display:flex;justify-content:space-between;align-items:center;gap:16px}.badge{border:1px solid #bed0c0;border-radius:100px;padding:8px 13px;font-size:12px;white-space:nowrap}h1{font-size:clamp(36px,5vw,64px);letter-spacing:-.055em;line-height:1.05;margin:24px 0 14px}header p{max-width:600px;font-size:17px;line-height:1.65;color:#53696b;margin:0 0 32px}.layout{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(300px,.85fr);gap:24px;align-items:start}.card{background:#fff;border:1px solid #dce4dc;border-radius:18px;padding:28px}fieldset{padding:0;border:0;margin:0}legend,h2{font-size:20px;font-weight:700;margin:0 0 7px;padding:0;letter-spacing:-.025em}.hint{color:#657677;font-size:13px;line-height:1.6;margin:0 0 22px}.service{display:grid;grid-template-columns:1fr 85px;gap:18px;align-items:center;padding:20px 0;border-top:1px solid #e5eae5}.service label{display:block;font-size:16px;font-weight:650}.service small{display:block;color:#637777;line-height:1.5;margin-top:5px}.price{font-variant-numeric:tabular-nums;color:#234c42;font-weight:700}.quantity label{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#647373;margin-bottom:6px}.quantity input{width:100%;border:1px solid #a7b9ad;border-radius:8px;padding:10px;font:inherit;font-variant-numeric:tabular-nums;background:#fafcf9;color:#183437}.quantity input[aria-invalid=true]{border:2px solid #a83c2c;background:#fff3ec}.receipt{background:#163f36;color:#f1f8f1}.receipt .hint{color:#bdcfbf}.receipt table{border-collapse:collapse;width:100%;font-size:14px;margin:26px 0 24px}.receipt th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#b8cbbb;padding-bottom:12px}.receipt th:last-child,.receipt td:last-child{text-align:right;white-space:nowrap}.receipt td{padding:11px 0;border-top:1px solid #ffffff20;line-height:1.5}.receipt td:first-child{padding-right:12px}.total{border-top:1px solid #ffffff40;padding-top:22px;display:flex;align-items:baseline;justify-content:space-between;gap:12px}.total output{font-size:37px;font-weight:650;letter-spacing:-.04em;font-variant-numeric:tabular-nums}.receipt .empty{color:#d0dfd2;font-size:14px;padding:16px 0;line-height:1.6}.receipt .disclaimer{color:#b8cfbf;font-size:12px;line-height:1.7;margin:18px 0 0}.actions{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}button{font:inherit;font-size:14px;font-weight:650;border:1px solid #9db6a4;border-radius:9px;padding:11px 16px;background:#fff;color:#193b31;cursor:pointer}button.primary{background:#dfefb9;border-color:#dfefb9}button:disabled{opacity:.5;cursor:not-allowed}button:focus-visible,input:focus-visible{outline:3px solid #bf7f20;outline-offset:3px}.error{color:#ffd4be;font-size:13px;line-height:1.6}.foot{font-size:12px;color:#617472;line-height:1.65;display:flex;gap:24px;justify-content:space-between;margin-top:24px}.foot p{margin:0;max-width:550px}[hidden]{display:none!important}@media(max-width:740px){main{padding:28px 18px}.layout{grid-template-columns:1fr}.card{padding:22px}.topline{align-items:start;flex-direction:column;gap:10px}.foot{flex-direction:column;gap:12px}header p{font-size:16px}.service{gap:14px}}@media print{body{background:#fff}main{max-width:none;padding:0}header p{margin-bottom:18px}.layout{display:block}.service-card,.actions{display:none}.receipt{color:#111;background:#fff;border:1px solid #aaa;border-radius:0}.receipt .hint,.receipt .disclaimer,.receipt th,.receipt .empty{color:#444}.receipt td,.total{border-color:#ccc}h1{font-size:32px}.foot{margin-top:16px}.badge{border-color:#888}.error{color:#a83c2c}}
+</style>
+</head>
+<body>
+<main>
+<header>
+ <div class="topline"><span class="eyebrow">Synthetic portfolio demo / AI-created</span><span class="badge">No booking. No payment. No real shop.</span></div>
+ <h1>Estimate preview.</h1>
+ <p>A small, local calculator for fictional bicycle services. Choose quantities to see a clear itemized estimate. Nothing is submitted or stored.</p>
+</header>
+<div class="layout">
+ <section class="card service-card" aria-labelledby="services-title">
+  <form id="estimate-form" novalidate>
+   <fieldset><legend id="services-title">Build a sample estimate</legend><p class="hint" id="quantity-help">Use whole numbers from 0 to 5. Zero leaves a service out. All prices are fictional USD.</p>
+    <div class="service"><div><label for="tune">Basic tune-up</label><small>Fictional adjustment package · <span class="price">$45.00 each</span></small></div><div class="quantity"><label for="tune">Quantity</label><input id="tune" name="tune" type="number" value="0" min="0" max="5" step="1" inputmode="numeric" aria-describedby="quantity-help" aria-label="Basic tune-up quantity"></div></div>
+    <div class="service"><div><label for="chain">Chain clean</label><small>Fictional cleaning package · <span class="price">$15.00 each</span></small></div><div class="quantity"><label for="chain">Quantity</label><input id="chain" name="chain" type="number" value="0" min="0" max="5" step="1" inputmode="numeric" aria-describedby="quantity-help" aria-label="Chain clean quantity"></div></div>
+    <div class="service"><div><label for="tire">Tire fitting</label><small>Fictional labor item · <span class="price">$20.00 each</span></small></div><div class="quantity"><label for="tire">Quantity</label><input id="tire" name="tire" type="number" value="0" min="0" max="5" step="1" inputmode="numeric" aria-describedby="quantity-help" aria-label="Tire fitting quantity"></div></div>
+    <div class="service"><div><label for="brakes">Brake adjustment</label><small>Fictional adjustment item · <span class="price">$25.00 each</span></small></div><div class="quantity"><label for="brakes">Quantity</label><input id="brakes" name="brakes" type="number" value="0" min="0" max="5" step="1" inputmode="numeric" aria-describedby="quantity-help" aria-label="Brake adjustment quantity"></div></div>
+   </fieldset><div class="actions"><button type="reset">Reset quantities</button></div>
+  </form>
+ </section>
+ <section class="card receipt" aria-labelledby="receipt-title">
+  <h2 id="receipt-title">Your sample estimate</h2><p class="hint">Transparent quantities. Fictional prices.</p>
+  <div id="estimate-status" role="status" aria-live="polite" aria-atomic="true">
+   <p id="empty" class="empty">Choose a service to start. Your itemized estimate will appear here.</p>
+   <p id="error" class="error" hidden>Enter a whole number from 0 to 5 for every service. No total is shown while an entry is invalid.</p>
+   <table id="items" hidden><caption hidden>Selected fictional services</caption><thead><tr><th scope="col">Service × quantity</th><th scope="col">Amount</th></tr></thead><tbody id="rows"></tbody></table>
+   <div class="total"><span>Sample total</span><output id="total" for="tune chain tire brakes">$0.00</output></div>
+  </div>
+  <p class="disclaimer">Not a binding quote or a real sale. The demo adds only the fictional line items shown. It does not calculate tax, parts, discounts or availability.</p>
+  <div class="actions"><button type="button" id="print" class="primary" disabled>Print estimate</button></div>
+ </section>
+</div>
+<footer class="foot"><p>One self-contained HTML file. Runs in your browser with no external libraries, account, connection or personal information required.</p><p>Portfolio demonstration only.<br>HTML · CSS · JavaScript</p></footer>
+</main>
+<script>
+'use strict';
+const services=[{id:'tune',name:'Basic tune-up',cents:4500},{id:'chain',name:'Chain clean',cents:1500},{id:'tire',name:'Tire fitting',cents:2000},{id:'brakes',name:'Brake adjustment',cents:2500}];
+const currency=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'});
+function calculate(quantities){
+ if(quantities.length!==services.length||quantities.some(q=>!Number.isInteger(q)||q<0||q>5))return null;
+ return quantities.reduce((sum,quantity,i)=>sum+quantity*services[i].cents,0);
+}
+function update(){
+ const quantities=services.map(service=>{const input=document.getElementById(service.id);const q=input.value.trim()===''?NaN:Number(input.value);const invalid=input.validity.badInput||!Number.isInteger(q)||q<0||q>5;input.setAttribute('aria-invalid',String(invalid));input.setAttribute('aria-describedby',invalid?'quantity-help error':'quantity-help');return invalid?NaN:q;});
+ const cents=calculate(quantities), valid=cents!==null;
+ const rows=document.getElementById('rows');rows.replaceChildren();
+ document.getElementById('error').hidden=valid;
+ document.getElementById('empty').hidden=!valid||cents>0;
+ document.getElementById('items').hidden=!valid||cents===0;
+ document.getElementById('total').textContent=valid?currency.format(cents/100):'—';
+ document.getElementById('print').disabled=!valid||cents===0;
+ if(valid)services.forEach((service,i)=>{if(quantities[i]===0)return;const row=document.createElement('tr');const label=document.createElement('td');const amount=document.createElement('td');label.textContent=service.name+' × '+quantities[i];amount.textContent=currency.format(service.cents*quantities[i]/100);row.append(label,amount);rows.append(row);});
+}
+document.getElementById('estimate-form').addEventListener('input',update);
+document.getElementById('estimate-form').addEventListener('submit',event=>event.preventDefault());
+document.getElementById('estimate-form').addEventListener('reset',event=>{event.preventDefault();services.forEach(service=>{document.getElementById(service.id).value='0';});update();});
+document.getElementById('print').addEventListener('click',()=>window.print());
+update();
+</script>
+</body>
+</html>

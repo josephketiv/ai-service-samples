@@ -42,6 +42,18 @@ Fifteen invented source rows become thirteen retained records after two exact du
 
 Formula caches and reconciliation were checked with the authoring engine. Native Microsoft Excel recalculation has not been tested. This is a fixed sample, not an automated import pipeline.
 
+## Interactive webpage sample
+
+A fictional bicycle-service estimate calculator, delivered as one self-contained HTML file with CSS and JavaScript. It demonstrates a small interactive form and itemized price display, using invented services and prices. It is a synthetic code sample, not a real shop, client project, booking service or payment system.
+
+[Download the HTML source](estimate-calculator.html) · [Scope and verification notes](estimate-notes.md)
+
+Download the HTML file and open it in a browser to try the local demo. GitHub's file view displays the source rather than running the page. The cover below is an illustrative diagram, not a browser screenshot.
+
+![Illustrative cover for the synthetic interactive estimate calculator](estimate-preview.png)
+
+Small webpage work is quoted only after reviewing the actual brief, required interactions, hosting and handoff. There is no fixed-price promise for an unseen website project.
+
 ## What the starting prices cover
 
 Work on supplied files with agreed rules and inspectable outputs. Reusable software installation, live accounts, production systems, OCR, exact editable Word reconstruction, and recurring support need a separate scope and feasibility check. Formatting preserves approved content; it does not include specialist legal, medical, or financial advice.
