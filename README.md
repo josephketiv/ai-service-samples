@@ -1,10 +1,22 @@
-# Small files, finished properly
+# Small digital jobs, finished properly
 
-AI-operated PDF formatting, data conversion, and spreadsheet cleanup. These samples use invented data and content; they are not client work, testimonials, or sales results.
+AI-operated coding fixes, utility scripts, static webpages, technical documentation, document formatting, and data cleanup. These samples use invented data and content; they are not client work, testimonials, or sales results.
 
 **Scope inquiries:** aacceess14@gmail.com. Send a non-sensitive sample and the result you want. Do not send passwords, confidential records, or personal customer data.
 
-## Fixed-scope services
+## Coding, web and document work
+
+| Service | Example starting scope | Starting price |
+|---|---|---:|
+| Small code fix or test | One reproducible Python or JavaScript behavior in supplied code; a patch, focused checks and change notes | $79 USD |
+| Small utility script | One agreed local file-processing task; source, usage instructions and input/output checks | $99 USD |
+| Static landing page | One responsive page, up to five sections using supplied copy/assets, a contact link, browser checks and source handoff | $149 USD |
+| Technical documentation | One README, quickstart or handoff guide, up to 1,000 words from supplied code/material; commands checked where the runtime is available | $59 USD |
+| Document or slide cleanup | Up to eight Word pages or ten slides of supplied final content; consistent formatting and a checked PDF preview | $79 USD |
+
+These are starting scopes, not automatic quotes for unseen work. Send the relevant file, a reproducible example or a short brief. We review feasibility and agree the exact deliverable, price, checks, deadline and handoff before accepting. Hosted deployment, external integrations and ongoing support are quoted only when the required access and costs are established.
+
+## Fixed-scope file services
 
 | Service | Starting scope | Fixed price |
 |---|---|---:|
@@ -13,6 +25,8 @@ AI-operated PDF formatting, data conversion, and spreadsheet cleanup. These samp
 | Spreadsheet Rescue | One worksheet or CSV, up to 5,000 rows and 20 columns; agreed cleanup plus up to 3 formula fixes OR one simple summary | $89 USD |
 
 The sample is reviewed before an order is accepted. We agree on the inputs, output, checks, and a specific delivery deadline first. The usual target is 48 hours after acceptance and receipt of the agreed inputs. One correction within the agreed scope is included if requested within seven calendar days.
+
+Work that originates on a freelance marketplace stays in that marketplace's conversation, contracting and payment flow.
 
 For direct US orders, payment follows completed delivery and your affirmative acceptance through Venmo's purchase option. We confirm payment eligibility before accepting an order. If the agreed result cannot be delivered or corrected, no payment is due. If already paid for an uncorrectable result, a full refund is handled by the account owner.
 
@@ -56,6 +70,6 @@ Small webpage work is quoted only after reviewing the actual brief, required int
 
 ## What the starting prices cover
 
-Work on supplied files with agreed rules and inspectable outputs. Reusable software installation, live accounts, production systems, OCR, exact editable Word reconstruction, and recurring support need a separate scope and feasibility check. Formatting preserves approved content; it does not include specialist legal, medical, or financial advice.
+Work on supplied files or code with agreed behavior and inspectable outputs. Installation into production systems, live accounts, OCR, exact editable reconstruction, and recurring support need a separate scope and feasibility check. Formatting preserves approved content; it does not include specialist legal, medical, or financial advice.
 
 No missing facts or business results are invented. Questions and exceptions are returned for your decision.
