@@ -1,0 +1,3 @@
+"source_record","sku","issue","original_record_json"
+"6","00105","Quantity must be a nonnegative JSON integer or null; confirm the source value","{""sku"":""00105"",""name"":""steel clips"",""category"":""stationery"",""quantity"":""ten"",""unit_price"":""2.50""}"
+"7","00106","Price does not match the declared decimal format; comma meaning requires confirmation","{""sku"":""00106"",""name"":""oak display"",""category"":""home"",""quantity"":1,""unit_price"":""1,299""}"

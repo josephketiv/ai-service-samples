@@ -1,0 +1,16 @@
+{
+  "dataset": "Synthetic product inventory",
+  "synthetic": true,
+  "created_by": "AI assistant",
+  "currency": "USD",
+  "records": [
+    {"sku": "00101", "name": "  cedar   notebook ", "category": " stationery ", "quantity": 12, "unit_price": "12.50"},
+    {"sku": "00102", "name": "BLUE PEN SET", "category": "STATIONERY", "quantity": 0, "unit_price": "8.00"},
+    {"sku": "00103", "name": "canvas tote ", "category": " accessories", "quantity": null, "unit_price": "16.00"},
+    {"sku": "00104", "name": "  WOVEN basket", "category": "HOME", "quantity": 3, "unit_price": "24.00"},
+    {"sku": "00101", "name": "  cedar   notebook ", "category": " stationery ", "quantity": 12, "unit_price": "12.50"},
+    {"sku": "00105", "name": "steel clips", "category": "stationery", "quantity": "ten", "unit_price": "2.50"},
+    {"sku": "00106", "name": "oak display", "category": "home", "quantity": 1, "unit_price": "1,299"},
+    {"sku": "00107", "name": "=SUM(1,1)", "category": "stationery", "quantity": 2, "unit_price": "0.00"}
+  ]
+}

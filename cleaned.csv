@@ -1,0 +1,6 @@
+"source_record","sku","product_name","category","quantity","quantity_status","unit_price_usd","product_name_escaped"
+"1","00101","Cedar Notebook","Stationery","12","known","12.50","false"
+"2","00102","Blue Pen Set","Stationery","0","known","8.00","false"
+"3","00103","Canvas Tote","Accessories","","missing","16.00","false"
+"4","00104","Woven Basket","Home","3","known","24.00","false"
+"8","00107","'=SUM(1,1)","Stationery","2","known","0.00","true"
